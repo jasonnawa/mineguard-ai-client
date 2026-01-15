@@ -34,7 +34,7 @@ const Home: React.FC = () => {
   const fetchFiles = async () => {
     try {
       const docs = await listDocuments();
-      console.log(docs);
+      console.log('DOCSSSS',docs);
       setFiles(docs);
     } catch (err) {
       console.error("Failed to fetch files", err);

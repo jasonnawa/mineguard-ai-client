@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Document as PdfDocument, Page, pdfjs } from "react-pdf";
-import { Paper, Box, Button, Typography } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import { api } from "../api";
 import type { DocumentData } from "../services/documents";
 import 'react-pdf/dist/Page/AnnotationLayer.css';

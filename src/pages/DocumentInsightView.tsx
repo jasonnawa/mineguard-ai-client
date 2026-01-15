@@ -1,17 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import {
-  Container,
   Typography,
   Box,
   Paper,
-  Divider,
   Button,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemAvatar,
-  Avatar,
   Pagination,
   Stack,
 } from "@mui/material";

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Box, Grid, Paper, Typography } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import DocumentInsightView from "./DocumentInsightView";
 import DocumentViewer from "../components/DocumentViewer";
 import { getDocument, type DocumentData } from "../services/documents";
